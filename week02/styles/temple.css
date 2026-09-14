@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(6, 86, 16);   
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+main{
+    width: 400px;
+    margin: 0 auto;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+}
+main img{
+
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 60px #6e5555;
+}
+section{
+    margin: 20px 0;
+    border: 1px solid rgba(4, 111, 7, 0.1);
+    padding: 10px;
+    background-color: rgba(74, 75, 74, 0.841);
+    font-size: .9rem;
+}
+section p{
+    margin: 10px;
+}
+ul{
+    margin: 10px 20px;
+}
+footer{
+    text-align: center;
+    font-size: .9rem;
+}
