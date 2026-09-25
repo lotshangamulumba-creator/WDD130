@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(36, 45, 61);
+}
+nav{
+    text-align: center;
+    margin: 1rem 0;
+    margin-top: 1rem;
+}
+nav a{
+    margin: o 1rem;
+    color: darkgreen;
+}
+main{
+    width: 800px;
+    margin: 0 auto
+}
+main h1{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    text-align: center;
+    color: darkgreen;
+    margin: 0 0 1rem 1rem;
+}
+main p{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+main img{
+    width: 150px;
+    height: auto;
+    border: 1px solid darkslategray;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(6, 79, 46);
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+aside img{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 1rem;
+
+}
+aside{
+    position: relative;
+    width: 650px;
+    border: solid black;
+    padding: 20px;
+    background: lightgray;
+    color:darkgreen;
+    overflow: auto;
+    
+}
+aside h2{
+    position:absolute;
+    top: 25px;
+    left: 30px;
+    color: black;
+    background-color: whitesmoke;
+    padding: .5rem;
+}
+aside p{
+    padding-top: 280px;
+}
+footer{
+    margin-top: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    color:darkgreen
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(8, 84, 84);
+    padding: 1rem;
+    background-color: lightgray;
+    color: rgb(2, 2, 2);
+
+}
