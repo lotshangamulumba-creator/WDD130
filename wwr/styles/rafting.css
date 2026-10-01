@@ -7,10 +7,16 @@
 --heading-font: "Times New Roman", Georgia, serif;
 --body-font: Arial, Helvetica, sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: #dcd6e8;
 }
 header{
     display: grid;
@@ -33,10 +39,14 @@ header nav{
 }
 header nav a{
     padding: 0.5rem;
-    color: var(--secondary-color);
+    color: white;
     font-weight: bold;
     text-decoration: none;
 
+}
+section {
+    background-color: var(--accent1-color);
+    color: white;
 }
 
 h1{
@@ -61,7 +71,9 @@ h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+
 nav,p,section,article{
+
     margin: 16px;
     padding: 8px;
 }
@@ -113,6 +125,7 @@ nav,p,section,article{
 }
 footer{
     background-color: var(--accent1-color);
+    border-top: 2px solid var(--accent2-color);
     color: white;
 }
 .hero{
