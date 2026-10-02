@@ -44,6 +44,9 @@ header nav a{
     text-decoration: none;
 
 }
+header nav a:hover {
+    color: var(--secondary-color);
+}
 section {
     background-color: var(--accent1-color);
     color: white;
@@ -132,11 +135,11 @@ footer{
     background-color: rgba(23,11,53,.83);
     color: white;
 }
-/*  
+
 .history{
     display: grid;
     grid-template-columns: 1fr 200px 1fr;
     align-items: center;
     gap: 1rem;
 }
- */
+ 
