@@ -117,8 +117,6 @@ nav,p,section,article{
     padding: 1rem;
 }
 .socialmedia{
-    width: 1px;
-    height: auto;
     display: flex;
     gap: 10px;
 }
@@ -127,6 +125,9 @@ nav,p,section,article{
     height: auto;
 }
 footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--accent1-color);
     border-top: 2px solid var(--accent2-color);
     color: white;
